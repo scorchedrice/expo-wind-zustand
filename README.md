@@ -1,50 +1,50 @@
-# Welcome to your Expo app 👋
+# expo-wind-zustand
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[Go expo-wind-zustand Github](https://github.com/scorchedrice/expo-wind-zustand)
 
-## Get started
+✨ **Expo + TailwindCSS + Zustand** 기반의 프로젝트를 빠르게 시작할 수 있는 템플릿 생성 CLI입니다.
 
-1. Install dependencies
+## 🚀 주요 기능
 
-   ```bash
-   npm install
-   ```
+✅ Expo 기반 React Native 프로젝트 템플릿
 
-2. Start the app
+✅ TailwindCSS (NativeWind) 설정, 버전 불일치 이슈 해결
 
-   ```bash
-   npx expo start
-   ```
+✅ expo-lint 설정 (recommend) 및 prettier-plugin-tailwind 적용
 
-In the output, you'll find options to open the app in a
+✅ Zustand로 상태관리 기본 설정 포함
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 📦 사용법
 
 ```bash
-npm run reset-project
+npx expo-wind-zustand
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+실행 시 아래와 같은 흐름으로 진행됩니다.
 
-## Learn more
+1. 프로젝트의 이름을 입력받고 디렉토리 생성
+2. [Github 레포지토리](https://github.com/scorchedrice/expo-wind-zustand)에서 코드 복사 진행
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+cd [projectName]
+npm install
+npm run start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📁 기본 디렉토리 구조
 
-## Join the community
+```
+[projectName]/
+├── app/                # expo-router 기반 라우팅
+├── components/         # UI 컴포넌트
+├── hooks/              # 커스텀 훅 (zustand 포함)
+├── constants/          # 상수 정의
+├── tailwind.config.js
+├── tsconfig.json
+├── global.css
+└── ...
+```
 
-Join our community of developers creating universal apps.
+## 제작자
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+[scorchedrice](https://github.com/scorchedrice)
