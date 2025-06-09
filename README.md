@@ -1,6 +1,7 @@
 # expo-wind-zustand
 
 [Go expo-wind-zustand Github](https://github.com/scorchedrice/expo-wind-zustand)
+[Go npm](https://www.npmjs.com/package/expo-wind-zustand)
 
 ✨ **Expo + TailwindCSS + Zustand** 기반의 프로젝트를 빠르게 시작할 수 있는 템플릿 생성 CLI입니다.
 
