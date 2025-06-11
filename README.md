@@ -16,6 +16,8 @@
 
 ✅ Zustand로 상태관리 기본 설정 포함
 
+✅ Storybook 설정 포함
+
 ## 📦 사용법
 
 ```bash
@@ -31,6 +33,12 @@ npx expo-wind-zustand
 cd [projectName]
 npm install
 npm run start
+```
+
+storybook을 사용하고 싶다면
+
+```bash
+npm run storybook
 ```
 
 ## 📁 기본 디렉토리 구조
